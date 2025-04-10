@@ -1,0 +1,36 @@
+.common{
+    /* border: 2px solid white; */
+    /* absolute assumes default no matter what */
+    position: absolute;
+}
+.nav{
+    /* this overrides absolute */
+    position:relative;
+    float: right;
+    font-size: 70%;
+}
+.footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    font-size: 65%;
+    font-style: italic;
+    background-color: rgba(107, 84, 125, 0.715);
+}
+.header{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    z-index: -1;
+}
+.content{
+    top: 20%;
+    /* the percent helps it squish in a bit */
+    left: 10%;
+    right: 10%;
+    bottom: inherit;
+    background-color: rgba(150, 213, 220, 0.751);
+    background-position: center;
+}

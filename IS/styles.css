@@ -1,0 +1,42 @@
+body{
+    font-family: fantasy;
+    background-color: rgba(139, 228, 104, 0.461);
+    color: rgb(233, 85, 186);
+    background-image: url(../assets/img/home-bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+a{
+    color: blueviolet;
+}
+h1, h2{
+    text-align: center;
+    text-decoration: underline;
+}
+img{
+    border: 5px dotted darkmagenta;
+    padding: 5px;
+    height: 250px;
+    /* margin: auto;
+    display: block; */
+}
+.rizz{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+    border: 3px dashed yellow;
+    font-size: 300%;
+    font-weight: bolder;
+    background-color: chartreuse;
+}
+.rizz:hover{
+    font-size: 350%;
+    color: rgb(133, 10, 71);
+    border: 5px double rgb(55, 0, 255)
+}
+li{
+    width: fit-content;
+}
+li:hover{
+    text-decoration: underline;
+    background-color: beige;
+}
